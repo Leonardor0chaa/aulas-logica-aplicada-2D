@@ -13,5 +13,22 @@ public class Main {
         qualquer.falar();
         System.out.println(qualquer.falar("alto"));
 
+        //Criar mais objetos
+        Animal cao = new Animal();
+        Animal gato = new Animal();
+        Animal gato2 = new Animal();
+        Animal roedor; // Declarar
+        roedor = new Animal(); // Instanciar
+        Animal x;
+        x = new Animal();
+
+        // Consultar dados de objeto cao
+        cao.nome = "Robertinho"; // Atribuição
+        System.out.println(cao.nome); // Consulta
+        cao.comer(); // chamado de método
+        Pessoa nova = new Pessoa();
+        nova.nome = "Tina";
+        nova.comer();
+
     }
 }
